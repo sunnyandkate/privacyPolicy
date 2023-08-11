@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: teal;
+  color: #26394c;
   background-color: #EFE2BA;
   
 }
@@ -12,6 +12,9 @@ body {
   line-height: 2rem;
   letter-spacing: 2px;
 }
+.container h1, h2, h3, h4, h5{
+  color:purple;
+}
 .container h1 {
   padding-bottom: 2rem;
   border-bottom: 2px solid teal;
@@ -20,13 +23,13 @@ body {
 }
 .container a {
   text-decoration: none;
-  color: purple;
+  color: #233e8d;
   font-family: helvetica;
   display: block;
   letter-spacing: normal;
   transition: all ease-in 1s;
 }
 .container a:hover {
-  color: teal;
+  color: hotpink;
   opacity: 0.7;
 }
