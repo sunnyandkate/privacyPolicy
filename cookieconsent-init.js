@@ -1,3 +1,11 @@
+/*
+* CookieConsent v2.9.2
+ * https://www.github.com/orestbida/cookieconsent
+ * Author Orest Bida
+ * Released under the MIT License
+
+*/
+
 // obtain cookieconsent plugin
 var cc = initCookieConsent();
 
