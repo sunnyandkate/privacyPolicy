@@ -6,12 +6,12 @@
 
 */
 
+
 // obtain cookieconsent plugin
 var cc = initCookieConsent();
 
-// example logo
 var logo = '';
-var cookie = '🍪';
+var cookie = 'ðŸª';
 
 // run plugin with config object
 cc.run({
@@ -86,8 +86,8 @@ cc.run({
                 ],
                 blocks: [
                     {
-                        title: 'Cookie usage',
-                        description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://sunnyandkate.com/privacypolicy.php" class="cc-link">privacy policy</a>.'
+                        title: 'Cookie usage ',
+                        description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://sunnyandkate.github.io/privacyPolicy/" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -129,7 +129,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to my policy on cookies and your choices, please <a class="cc-link" href="https://sunnyandkate.com/contact.php">contact me</a>.',
+                        description: 'For any queries in relation to my policy on cookies and your choices, please contact me.',
                     }
                 ]
             }
