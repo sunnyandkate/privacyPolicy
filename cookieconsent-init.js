@@ -28,7 +28,7 @@ cc.run({
     gui_options: {
         consent_modal: {
             layout: 'box',                      // box,cloud,bar
-            position: 'bottom right',           // bottom,middle,top + left,right,center
+            position: 'bottom left',           // bottom,middle,top + left,right,center
             transition: 'slide'                 // zoom,slide
         },
         settings_modal: {
@@ -78,7 +78,7 @@ cc.run({
                 ],
                 blocks: [
                     {
-                        title: 'Cookie usage 📢',
+                        title: 'Cookie usage',
                         description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://sunnyandkate.com/privacypolicy.php" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
